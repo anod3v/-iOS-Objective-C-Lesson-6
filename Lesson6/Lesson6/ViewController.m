@@ -21,8 +21,6 @@ typedef int(^SumBlock)(int);
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // ---
-    
     dispatch_queue_t globalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     
     double (^multiplyTwoValues)(double, double) =
