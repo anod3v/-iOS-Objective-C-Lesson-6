@@ -11,9 +11,6 @@
 
 @interface ViewController ()
 
-typedef int(^SquareBlock)(int);
-typedef int(^SumBlock)(int);
-
 @end
 
 @implementation ViewController
